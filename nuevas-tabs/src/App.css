@@ -1,0 +1,27 @@
+.tabSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.tabBar {
+  width: 90%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.tabBar-item {
+  width: 100%;
+  height: 20px;
+  font-family: 'Raleway-Bold';
+  border-bottom: 3px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.tabBar-active {
+  border-bottom: 3px solid;
+}
+/*tabBar*/

@@ -1,0 +1,35 @@
+.tabSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.tabBar{
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabItem {
+    width: 100%;
+    height: 20px;
+    font-family: 'Raleway-Bold';
+    border-bottom: 4px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.tabItemTitle {
+    text-align: center;
+}
+/*When to use Tabs:
+-You have 2-9 different categories of content. If you have more, consider using a list
+-Category names are relatively short and predictable, both in terms of position and copy (i.e. they match the prototype).
+-The number of categories is unlikely to change on a regular basis.
+-The categories are similar in nature; it makes logical sense that they’re tabbed together.
+-The categories fit in a single row. 
+-Avoid using tabs inside tabs
+*/
